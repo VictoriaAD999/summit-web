@@ -1,0 +1,23 @@
+/*------ajustes para pantallas chicas------*/
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+
+/*------Ajustes para pantallas grandes--------*/
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: $ancho-maximo;
+        margin: 0 auto;
+    }
+}

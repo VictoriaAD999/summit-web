@@ -1,0 +1,28 @@
+/*---------basico-----------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------Body y tipografía general--------*/
+body {
+    font-family: $fuente-principal;
+    font-size: $tamano-base;
+    background-color: $color-secundario;
+    color: $color-texto;
+    line-height: 1.5;
+}
+
+/*--------Imágenes responsivas--------*/
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*--------Enlaces--------*/
+a {
+    text-decoration: none;
+    color: inherit;
+}

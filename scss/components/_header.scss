@@ -1,0 +1,42 @@
+header {
+    background-color: $color-primario;
+    padding: 1rem;
+
+    .nav-bar {
+        @include centrar-flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: $color-secundario;
+        }
+
+        ul {
+            display: flex;
+            gap: 1rem;
+            list-style: none;
+
+            li {
+                a {
+                    color: $color-secundario;
+                    text-decoration: none;
+                    font-weight: 500;
+
+                    &:hover {
+                        color: $color-acento;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .nav-bar {
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+    }
+}

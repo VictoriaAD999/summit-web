@@ -1,0 +1,38 @@
+footer {
+    background-color: $color-primario;
+    color: $color-secundario;
+    padding: 2rem 1rem;
+
+    .footer-container {
+        @include centrar-flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+
+        p {
+            font-size: 0.9rem;
+        }
+
+        .redes {
+            display: flex;
+            gap: 1rem;
+
+            a {
+                color: $color-secundario;
+                font-size: 1.2rem;
+
+                &:hover {
+                    color: $color-acento;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .footer-container {
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: left;
+        }
+    }
+}

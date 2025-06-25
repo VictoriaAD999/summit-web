@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/*--------Variables de colores-----------*/
+/*---------Variables de espaciado--------*/
+/*--------Mixin para botones---------*/
+/*---------basico-----------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*--------Body y tipografía general--------*/
+body {
+  font-family: "Seravek", sans-serif;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  color: #111;
+  line-height: 1.5;
+}
+
+/*--------Imágenes responsivas--------*/
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*--------Enlaces--------*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*------ajustes para pantallas chicas------*/
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero h2 {
+    font-size: 2rem;
+  }
+  .card {
+    width: 90%;
+  }
+}
+/*------Ajustes para pantallas grandes--------*/
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+header {
+  background-color: #3f6d8d;
+  padding: 1rem;
+}
+header .nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header .nav-bar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f5f5f5;
+}
+header .nav-bar ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+header .nav-bar ul li a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: 500;
+}
+header .nav-bar ul li a:hover {
+  color: rgb(177, 13, 13);
+}
+@media screen and (max-width: 768px) {
+  header .nav-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+footer {
+  background-color: #3f6d8d;
+  color: #f5f5f5;
+  padding: 2rem 1rem;
+}
+footer .footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+footer .footer-container p {
+  font-size: 0.9rem;
+}
+footer .footer-container .redes {
+  display: flex;
+  gap: 1rem;
+}
+footer .footer-container .redes a {
+  color: #f5f5f5;
+  font-size: 1.2rem;
+}
+footer .footer-container .redes a:hover {
+  color: rgb(177, 13, 13);
+}
+@media screen and (min-width: 768px) {
+  footer .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
