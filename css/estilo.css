@@ -1,19 +1,16 @@
-@import "base/variables";
-@import "base/reset";
-@import "components/footer";
-@import "components/header";
-@import "components/general";
-@import "components/contacto";
-@import "components/sobre-nosotros";
-@import "components/productos";
-
+@charset "UTF-8";
 /*---------basico-----------*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+.main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 /*--------Body y tipografía general--------*/
 body {
   font-family: "Seravek", sans-serif;
