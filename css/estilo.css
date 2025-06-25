@@ -1,7 +1,12 @@
-@charset "UTF-8";
-/*--------Variables de colores-----------*/
-/*---------Variables de espaciado--------*/
-/*--------Mixin para botones---------*/
+@import "base/variables";
+@import "base/reset";
+@import "components/footer";
+@import "components/header";
+@import "components/general";
+@import "components/contacto";
+@import "components/sobre-nosotros";
+@import "components/productos";
+
 /*---------basico-----------*/
 * {
   margin: 0;
