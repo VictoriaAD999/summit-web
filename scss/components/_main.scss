@@ -1,0 +1,62 @@
+main {
+    background-color: #f9f9f9;
+    padding: 2rem;
+
+    section {
+        margin-bottom: 2rem;
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: $color-primario;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: $color-secundario;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+
+            article {
+                background-color: white;
+                padding: 1.5rem;
+                border-radius: 8px;
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease;
+
+                &:hover {
+                    transform: translateY(-5px);
+                }
+
+                h3 {
+                    margin-top: 0;
+                    font-size: 1.5rem;
+                    color: $color-primario;
+                }
+
+                p {
+                    font-size: 1rem;
+                    color: $color-secundario;
+                }
+
+                a {
+                    display: inline-block;
+                    margin-top: 1rem;
+                    color: $color-acento;
+                    font-weight: bold;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
