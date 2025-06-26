@@ -156,12 +156,6 @@ main p {
   line-height: 1.6;
   color: #111;
 }
-main .hero-img {
-  max-width: 80%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
 main .contenido-nosotros {
   display: flex;
   flex-wrap: wrap;
@@ -215,6 +209,7 @@ main .tarjetas-container article {
   transition: transform 0.3s ease;
 }
 main .tarjetas-container article img {
+  max-width: 400px;
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -244,4 +239,9 @@ main .tarjetas-container article:hover {
   transform: translateY(-5px);
 }
 
-/*# sourceMappingURL=estilo.css.map */
+.hero-img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
