@@ -84,11 +84,11 @@ main {
 
             img {
                 width: 100%;
-                height: auto;
-                max-width: 500px;
-                border-radius: 6px;
+                height: 350px;
                 object-fit: cover;
+                border-radius: 8px;
                 box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+                margin-top: 1rem;
             }
 
             p {
@@ -117,12 +117,6 @@ main img {
     height: auto;
     display: block;
     border-radius: 6px;
-}
-
-// Imagen de la sección "nosotros" con margen superior
-main .contenido-nosotros img {
-    margin-top: 1rem;
-    max-width: 100%;
 }
 
 .img-nosotros {
