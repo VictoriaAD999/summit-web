@@ -40,14 +40,10 @@ main {
     }
 
     .img-chica {
-        max-width: 250px;
-        width: 100%;
-        height: auto;
-        display: block;
-        margin: 1rem auto;
+        flex: 1 1 300px;
+        max-width: 400px;
         border-radius: 8px;
-        box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
-        object-fit: contain;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     }
 
     .xcmg-logo {
