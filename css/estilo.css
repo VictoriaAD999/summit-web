@@ -196,9 +196,10 @@ main .contenido-nosotros img {
 
 .img-nosotros {
   max-width: 100%;
-  border-radius: 8px;
+  height: auto;
   display: block;
   margin-top: 1.5rem;
+  border-radius: 8px;
 }
 
 footer {
