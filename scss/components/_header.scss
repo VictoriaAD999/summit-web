@@ -1,4 +1,5 @@
 header {
+<<<<<<< HEAD
     background-color: $color-principal;
     padding: 1rem;
 
@@ -6,27 +7,51 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+=======
+    background-color: $color-primario;
+    padding: 1rem;
+
+    .nav-bar {
+        @include centrar-flex;
+        justify-content: space-between;
+>>>>>>> 15b5675f6e89385ff2b9854531b93a34c93d362c
         flex-wrap: wrap;
 
         .logo {
             font-size: 1.5rem;
             font-weight: bold;
+<<<<<<< HEAD
             color: $blanco;
         }
 
         ul {
             display: flex;
+=======
+            color: $color-secundario;
+        }
+
+        ul {
+            display: center;
+>>>>>>> 15b5675f6e89385ff2b9854531b93a34c93d362c
             gap: 1rem;
             list-style: none;
 
             li {
                 a {
+<<<<<<< HEAD
                     color: $blanco;
+=======
+                    color: $color-secundario;
+>>>>>>> 15b5675f6e89385ff2b9854531b93a34c93d362c
                     text-decoration: none;
                     font-weight: 500;
 
                     &:hover {
+<<<<<<< HEAD
                         color: $color-secundario;
+=======
+                        color: $color-acento;
+>>>>>>> 15b5675f6e89385ff2b9854531b93a34c93d362c
                     }
                 }
             }

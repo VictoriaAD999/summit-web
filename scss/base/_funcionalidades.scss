@@ -1,6 +1,43 @@
+<<<<<<< HEAD
 // Variables de colores
 $color-principal: #3f6d8d;
 $color-secundario: #f5f5f5;
 $color-acento:#29526f (1, 0, 82);
 $color-texto: #111;
 $color-fondo: #f9f9f9;
+=======
+/*--------Variables de colores-----------*/
+$color-primario: #3f6d8d;
+$color-secundario: #f5f5f5;
+$color-acento: rgb(40, 31, 230);
+$color-texto: #111;
+
+//*--------Variables de tipografía---------*//
+$fuente-principal: 'Seravek', sans-serif;
+$tamano-base: 16px;
+
+/*---------Variables de espaciado--------*/
+$espaciado-base: 1rem;
+$ancho-maximo: 1200px;
+
+//*------Mixin para centrado---------*//
+@mixin centrar-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--------Mixin para botones---------*/
+@mixin botones {
+    background-color: $color-primario;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: $color-acento;
+    }
+}
+>>>>>>> 15b5675f6e89385ff2b9854531b93a34c93d362c
