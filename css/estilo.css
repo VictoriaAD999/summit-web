@@ -156,6 +156,12 @@ main p {
   line-height: 1.6;
   color: #111;
 }
+main .hero-img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 main .contenido-nosotros {
   display: flex;
   flex-wrap: wrap;
@@ -172,6 +178,27 @@ main .contenido-nosotros .img-nosotros {
   max-width: 400px;
   border-radius: 8px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+main .xcmg-logo {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+}
+main .footer-redes i {
+  color: white;
+}
+main .mapas {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .mapas iframe {
+  width: 45%;
+  min-width: 300px;
+  height: 250px;
+  border: 0;
 }
 main .tarjetas-container {
   display: grid;
@@ -216,3 +243,5 @@ main .tarjetas-container article .btn-enviar:hover {
 main .tarjetas-container article:hover {
   transform: translateY(-5px);
 }
+
+/*# sourceMappingURL=estilo.css.map */
