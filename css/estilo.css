@@ -80,7 +80,7 @@ header .nav-bar .logo {
   color: #f5f5f5;
 }
 header .nav-bar ul {
-  display: flex;
+  display: center;
   gap: 1rem;
   list-style: none;
 }
@@ -186,11 +186,12 @@ main section .contenido-nosotros img {
 }
 main section .mapas {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
 }
 main section .mapas iframe {
-  width: 50%;
+  width: 100%;
+  max-width: 400px;
   height: 150px;
   border: none;
 }
@@ -230,11 +231,11 @@ footer .footer-container .redes {
   display: flex;
   gap: 1rem;
 }
-footer .footer-container .redes a {
-  color: #f5f5f5;
+footer .footer-container .redes .redes a {
+  color: white;
   font-size: 1.2rem;
 }
-footer .footer-container .redes a:hover {
+footer .footer-container .redes .redes a:hover {
   color: rgb(40, 31, 230);
 }
 @media screen and (min-width: 768px) {

@@ -17,8 +17,8 @@ footer {
             display: flex;
             gap: 1rem;
 
-            a {
-                color: $color-secundario;
+            .redes a {
+                color: white; // <- Fuerza el color blanco
                 font-size: 1.2rem;
 
                 &:hover {

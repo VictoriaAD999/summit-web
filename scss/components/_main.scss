@@ -105,11 +105,12 @@ main {
 
         .mapas {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             gap: 1rem;
 
             iframe {
-                width: 50%;
+                width: 100%;
+                max-width: 400px;
                 height: 150px;
                 border: none;
             }
