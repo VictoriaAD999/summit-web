@@ -163,21 +163,26 @@ main section .contenido-nosotros {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 1rem;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+main section .contenido-nosotros p {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #111;
+  text-align: left;
+  max-width: 600px;
 }
 main section .contenido-nosotros img {
-  width: 100%;
-  max-width: 300px;
+  flex: 1;
+  max-width: 500px;
   height: auto;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  margin-top: 1rem;
-}
-main section .contenido-nosotros p {
-  color: #111;
-  text-align: center;
 }
 main section .mapas {
   display: flex;
