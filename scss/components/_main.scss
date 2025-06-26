@@ -39,17 +39,21 @@ main {
         }
     }
 
-    .img-chica {
-        width: 30%;
-        max-width: 300px;
+
+    .img-equipos {
+        width: 100%;
+        max-width: 400px;
         height: auto;
         display: block;
         margin: 2rem auto;
+        border-radius: 8px;
+        object-fit: cover;
     }
 
     .xcmg-logo {
         width: 200px;
         height: auto;
+        justify-content: center;
         display: block;
         margin: 2rem auto;
     }
