@@ -103,3 +103,17 @@ main {
         }
     }
 }
+
+// Estilos generales para imágenes en main
+main img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+// Imagen de la sección "nosotros" con margen superior
+main .contenido-nosotros img {
+    margin-top: 1rem;
+    max-width: 100%;
+}
