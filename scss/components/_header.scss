@@ -1,57 +1,33 @@
 header {
-<<<<<<< HEAD
-    background-color: $color-principal;
+    background-color: $azul-principal;
     padding: 1rem;
 
     .nav-bar {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-=======
-    background-color: $color-primario;
-    padding: 1rem;
-
-    .nav-bar {
-        @include centrar-flex;
         justify-content: space-between;
->>>>>>> 15b5675f6e89385ff2b9854531b93a34c93d362c
         flex-wrap: wrap;
 
         .logo {
             font-size: 1.5rem;
             font-weight: bold;
-<<<<<<< HEAD
-            color: $blanco;
+            color: $blanco-principal;
         }
 
         ul {
             display: flex;
-=======
-            color: $color-secundario;
-        }
-
-        ul {
-            display: center;
->>>>>>> 15b5675f6e89385ff2b9854531b93a34c93d362c
             gap: 1rem;
             list-style: none;
 
             li {
                 a {
-<<<<<<< HEAD
-                    color: $blanco;
-=======
-                    color: $color-secundario;
->>>>>>> 15b5675f6e89385ff2b9854531b93a34c93d362c
+                    color: $blanco-principal;
                     text-decoration: none;
                     font-weight: 500;
 
                     &:hover {
-<<<<<<< HEAD
-                        color: $color-secundario;
-=======
-                        color: $color-acento;
->>>>>>> 15b5675f6e89385ff2b9854531b93a34c93d362c
+                        color: lighten($azul-principal, 10%);
                     }
                 }
             }

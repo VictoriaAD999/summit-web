@@ -1,8 +1,8 @@
-/*--------Media queries para pantallas pequeñas--------*/
 @media screen and (max-width: 768px) {
     .nav-bar {
         flex-direction: column;
         align-items: center;
+        gap: 1rem;
     }
 
     .hero h2 {
@@ -13,14 +13,12 @@
         width: 90%;
     }
 
-    header .nav-bar {
+    footer .footer-container {
         flex-direction: column;
-        align-items: center;
-        gap: 1rem;
+        text-align: center;
     }
 }
 
-/*--------Media queries para pantallas grandes--------*/
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1200px;
