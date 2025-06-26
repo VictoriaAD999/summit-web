@@ -83,10 +83,10 @@ main {
             gap: 1rem;
 
             img {
-                max-width: 600px;
                 width: 100%;
+                max-width: 300px;
                 height: auto;
-                object-fit: contain;
+                object-fit: cover;
                 border-radius: 8px;
                 box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
                 margin-top: 1rem;
