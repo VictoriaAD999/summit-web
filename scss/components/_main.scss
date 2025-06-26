@@ -63,6 +63,16 @@ main {
         height: 250px;
         border: 0;
     }
+    .img-chica {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    object-fit: contain;
+}
 
     img {
         max-width: 400px;
@@ -122,15 +132,4 @@ main {
     height: auto;
     display: block;
     margin: 0 auto;
-}
-
-.img-chica {
-    max-width: 250px;
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 1rem auto;
-    border-radius: 8px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
-    object-fit: contain;
 }
