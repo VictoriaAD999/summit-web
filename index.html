@@ -15,7 +15,7 @@
 <body>
     <header class="sticky-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
-            <div class="container-fluid">
+            <div class="container-fluid" role="navigation">
                 <a class="navbar-brand" href="#"><strong>SUMMIT</strong></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
@@ -36,19 +36,20 @@
     <img src="./img/encabezado-web.jpg" alt="Grúa hidráulica de Summit" class="img-banner" />
 
     <main class="main">
+        <h1 class="visually-hidden">Inicio | SUMMIT</h1>
         <section class="hero">
-            <div class="barra-seccion">
+            <header class="barra-seccion">
                 <h2>Representante Oficial</h2>
-            </div>
+            </header>
 
             <img src="./img/logo-xcmg.png" alt="Logo XCMG" class="logo-xcmg" />
 
         </section>
 
         <section class="ubicacion">
-            <div class="barra-seccion">
+            <header class="barra-seccion">
                 <h2>Donde encontrarnos</h2>
-            </div>
+            </header>
             <div class="mapas">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1450.1429023590713!2d-68.01493088862506!3d-38.92830845130439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzjCsDU1JzQxLjIiUyA2OMKwMDAnNDYuNyJX!5e0!3m2!1ses!2sar!4v1746982467900!5m2!1ses!2sar"
@@ -60,10 +61,10 @@
         </section>
 
         <section class="nosotros">
-            <div class="barra-seccion">
+            <header class="barra-seccion">
                 <h2>Sobre Nosotros</h2>
-            </div>
-            <div class="contenido-nosotros">
+            </header>
+            <article class="contenido-nosotros">
                 <p>
                     SUMMIT nació con una visión clara: ofrecer soluciones de calidad en un sector que exige fuerza,
                     precisión y
@@ -75,14 +76,14 @@
                     y de la construcción.
                 </p>
                 <img src="./img/fundador-summit.jpeg" alt="Fundador de Summit" class="img-nosotros" />
-            </div>
+            </article>
         </section>
 
         <section class="productos">
-            <div class="barra-seccion">
+            <header class="barra-seccion">
                 <h2>Productos destacados</h2>
-            </div>
-            <div class="tarjetas-container">
+            </header>
+            <section class="tarjetas-container">
                 <article class="tarjeta">
                     <img src="./img/gsqz200.jpg" alt="Grúa modelo GSQ200">
                     <h4>GSQZ200</h4>
@@ -107,7 +108,7 @@
                     <p>Hidrogrúa para múltiples usos industriales con máxima eficiencia.</p>
                     <a href="./pages/contactanos.html" class="btn-enviar">Contáctanos</a>
                 </article>
-            </div>
+            </section>
         </section>
     </main>
 
