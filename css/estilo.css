@@ -236,7 +236,7 @@ footer .footer-container .redes .redes a {
   font-size: 1.2rem;
 }
 footer .footer-container .redes .redes a:hover {
-  color: rgb(40, 31, 230);
+  color: white;
 }
 @media screen and (min-width: 768px) {
   footer .footer-container {
