@@ -167,9 +167,10 @@ main section .contenido-nosotros {
   gap: 1rem;
 }
 main section .contenido-nosotros img {
+  max-width: 600px;
   width: 100%;
-  height: 350px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   margin-top: 1rem;
