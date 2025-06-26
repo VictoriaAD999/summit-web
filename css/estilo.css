@@ -152,6 +152,48 @@ main section .grid article a:hover {
   text-decoration: underline;
 }
 
+section {
+  background-color: white;
+  padding: 2rem 1rem;
+  color: #111;
+}
+section h2 {
+  color: #3f6d8d;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+section p {
+  font-size: 1.1rem;
+  color: #111;
+  line-height: 1.6;
+}
+section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #3f6d8d;
+  color: #f5f5f5;
+}
+footer a {
+  color: #f5f5f5;
+}
+footer a:hover {
+  color: rgb(177, 13, 13);
+}
+
+.nosotros,
+.contactanos {
+  background-color: white;
+  color: #111;
+}
+.nosotros p,
+.contactanos p {
+  color: #111;
+}
+
 footer {
   background-color: #3f6d8d;
   color: #f5f5f5;

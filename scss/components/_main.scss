@@ -60,3 +60,53 @@ main {
     }
 }
 
+// Arreglo general de estilo para legibilidad y estética
+
+section {
+    background-color: white;
+    padding: 2rem 1rem;
+    color: #111;
+
+    h2 {
+        color: #3f6d8d;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+        color: #111;
+        line-height: 1.6;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+}
+
+// Footer
+footer {
+    background-color: #3f6d8d;
+    color: #f5f5f5;
+
+    a {
+        color: #f5f5f5;
+
+        &:hover {
+            color: rgb(177, 13, 13);
+        }
+    }
+}
+
+// Ajustes para sección .nosotros y .contactanos si es necesario
+.nosotros,
+.contactanos {
+    background-color: white;
+    color: #111;
+
+    p {
+        color: #111;
+    }
+}
