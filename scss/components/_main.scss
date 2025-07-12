@@ -133,8 +133,8 @@ main {
 }
 
 .img-banner {
-    width: 100vw;
-    height: auto;
-    display: block;
+    width: 100%;
+    max-height: 500px;
     object-fit: cover;
+    display: block;
 }
