@@ -46,14 +46,28 @@ a {
   border: 0;
 }
 
-h2 {
+.barra-seccion {
+  background-color: #3d6d8d;
+  padding: 12px 0;
   text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.barra-seccion h2 {
   color: white;
-  background-color: #3f6d8d;
-  padding: 1.2rem 0;
+  font-size: 28px;
   margin: 0;
+  position: relative;
+  display: inline-block;
+}
+
+.barra-seccion h2::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 2px;
+  background-color: white;
+  margin: 8px auto 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -189,15 +203,26 @@ main {
   background-color: #f9f9f9;
   padding: 2rem;
 }
-main section h2 {
+main .barra-seccion {
+  background-color: #3d6d8d;
+  padding: 12px 0;
   text-align: center;
-  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+main .barra-seccion h2 {
   color: white;
-  background-color: #3f6d8d;
-  padding: 0.8rem;
-  max-width: 400px;
-  margin: 1rem auto;
-  border-bottom: 3px solid #72a0c0;
+  font-size: 28px;
+  margin: 0;
+  position: relative;
+  display: inline-block;
+}
+main .barra-seccion h2::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 2px;
+  background-color: white;
+  margin: 8px auto 0;
 }
 main p {
   font-size: 1.1rem;
@@ -303,5 +328,3 @@ main .tarjetas-container article:hover {
   object-fit: cover;
   display: block;
 }
-
-/*# sourceMappingURL=estilo.css.map */
