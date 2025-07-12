@@ -132,9 +132,9 @@ main {
     }
 }
 
-.hero-img {
-    max-width: 80%;
+.img-banner {
+    width: 100vw;
     height: auto;
     display: block;
-    margin: 0 auto;
+    object-fit: cover;
 }
