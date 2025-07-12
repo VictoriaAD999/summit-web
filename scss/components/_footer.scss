@@ -1,41 +1,27 @@
-footer {
+.footer {
     background-color: $azul-principal;
-    color: $blanco-principal;
-    padding: 3rem 1rem;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+    color: white;
+}
 
-    .footer-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        gap: 1rem;
+.footer-redes a {
+    color: white;
+    transition: color 0.3s ease;
+}
 
-        p {
-            font-size: 0.9rem;
-        }
+.footer-redes a:hover {
+    color: #dce8f0;
+}
 
-        .redes {
-            display: flex;
-            gap: 1.5rem;
+.footer-redes i {
+    font-size: 10rem;
+    margin: 0 10px;
+}
 
-            a {
-                color: $blanco-principal;
-                font-size: 1.5rem;
-
-                &:hover {
-                    color: $negro-principal;
-                }
-            }
-        }
-    }
-
-    @media screen and (min-width: 768px) {
-        .footer-container {
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            text-align: left;
-        }
-    }
+.footer-texto {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 10px;
 }

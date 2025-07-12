@@ -163,40 +163,32 @@ header .nav-bar ul li a:hover {
   }
 }
 
-footer {
+.footer {
   background-color: #3f6d8d;
-  color: #f5f5f5;
-  padding: 3rem 1rem;
-}
-footer .footer-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   text-align: center;
-  gap: 1rem;
+  padding: 30px 20px;
+  margin-top: 40px;
+  color: white;
 }
-footer .footer-container p {
-  font-size: 0.9rem;
+
+.footer-redes a {
+  color: white;
+  transition: color 0.3s ease;
 }
-footer .footer-container .redes {
-  display: flex;
-  gap: 1.5rem;
+
+.footer-redes a:hover {
+  color: #dce8f0;
 }
-footer .footer-container .redes a {
-  color: #f5f5f5;
-  font-size: 1.5rem;
+
+.footer-redes i {
+  font-size: 10rem;
+  margin: 0 10px;
 }
-footer .footer-container .redes a:hover {
-  color: #111;
-}
-@media screen and (min-width: 768px) {
-  footer .footer-container {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: left;
-  }
+
+.footer-texto {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-top: 10px;
 }
 
 main {
