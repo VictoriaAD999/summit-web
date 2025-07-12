@@ -11,6 +11,7 @@
         margin-right: auto;
         text-align: center;
         font-size: 1.75rem;
+        border-bottom: 2px solid $azul-principal;
     }
 
     .hero h2 {
@@ -22,8 +23,13 @@
     }
 
     footer .footer-container {
+        display: flex;
         flex-direction: column;
+        align-items: center;
         text-align: center;
+    }
+    footer .footer-container i {
+        color: white;
     }
 }
 
@@ -34,8 +40,13 @@
     }
 
     footer .footer-container {
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         text-align: left;
+    }
+    footer .footer-container i {
+        color: white;
     }
 }

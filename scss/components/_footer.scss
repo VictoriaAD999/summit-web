@@ -1,7 +1,7 @@
 footer {
     background-color: $azul-principal;
     color: $blanco-principal;
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
 
     .footer-container {
         display: flex;
@@ -17,11 +17,11 @@ footer {
 
         .redes {
             display: flex;
-            gap: 1rem;
+            gap: 1.5rem;
 
             a {
                 color: $blanco-principal;
-                font-size: 1.2rem;
+                font-size: 1.5rem;
 
                 &:hover {
                     color: $negro-principal;
@@ -34,6 +34,7 @@ footer {
         .footer-container {
             flex-direction: row;
             justify-content: space-between;
+            align-items: center;
             text-align: left;
         }
     }
